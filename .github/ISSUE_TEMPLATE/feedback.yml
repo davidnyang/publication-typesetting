@@ -1,0 +1,79 @@
+name: Workflow feedback / 使用反馈
+description: Report a reproducible issue or experience with synthetic, non-sensitive material.
+title: "[Feedback] "
+body:
+  - type: markdown
+    attributes:
+      value: "English / 中文均可。This issue is public. Do not upload client manuscripts, personal data, credentials, private paths or complete logs. 仅用合成或公开非敏感材料。"
+  - type: input
+    id: version
+    attributes:
+      label: Skill version or commit / 技能版本
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Host, model, OS, application and save version / 实际环境
+      description: Exclude account names and private paths / 不含账号与私有路径
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps, synthetic input, expected and actual result / 复现步骤与结果
+    validations:
+      required: true
+  - type: dropdown
+    id: actual_application
+    attributes:
+      label: Application execution / 软件实际操作
+      options:
+        - "Not run: reading or response exercise only / 未执行"
+        - "Executed with candidate output / 已执行，有候选输出"
+        - "Executed without successful output / 已执行，输出失败"
+    validations:
+      required: true
+  - type: textarea
+    id: hard_checks
+    attributes:
+      label: Technical checks / 技术必需项
+      value: |
+        Complete text / 全文：not run / 未执行
+        No missing glyphs or overset / 无缺字溢文：not run / 未执行
+        Reading order / 阅读顺序：not run / 未执行
+        Native save and reopen / 原生重开：not run / 未执行
+        PDF readback / PDF回读：not run / 未执行
+        Failure location and redacted evidence / 失败位置及脱敏证据：
+    validations:
+      required: true
+  - type: dropdown
+    id: clarity
+    attributes:
+      label: "Clarity / 说明清楚 (1 low — 5 high)"
+      options: ["Not run / N/A / 未执行或不适用", "1", "2", "3", "4", "5"]
+  - type: dropdown
+    id: intake
+    attributes:
+      label: "Intake completeness / 接稿完整 (1—5)"
+      options: ["Not run / N/A / 未执行或不适用", "1", "2", "3", "4", "5"]
+  - type: dropdown
+    id: software
+    attributes:
+      label: "Reproducibility / 操作可复现 (1—5)"
+      options: ["Not run / N/A / 未执行或不适用", "1", "2", "3", "4", "5"]
+  - type: dropdown
+    id: review
+    attributes:
+      label: "Review help / 审校帮助 (1—5)"
+      options: ["Not run / N/A / 未执行或不适用", "1", "2", "3", "4", "5"]
+  - type: dropdown
+    id: delivery
+    attributes:
+      label: "Delivery help / 交付帮助 (1—5)"
+      options: ["Not run / N/A / 未执行或不适用", "1", "2", "3", "4", "5"]
+  - type: textarea
+    id: time_and_notes
+    attributes:
+      label: Measured work/rework time and suggestions / 实测工时与建议
+      description: Write unknown if not measured. Output creation is not editorial or print acceptance.

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "profile_kind": "publication",
+  "publication_id": null,
+  "profile_version": null,
+  "configuration_status": "unconfigured",
+  "scope": {
+    "interior": true,
+    "cover": false,
+    "language": null,
+    "writing_direction": null
+  },
+  "authority": {
+    "current_state": null,
+    "reference_input": null,
+    "reference_sha256": null,
+    "approved_style_source": null
+  },
+  "geometry": {
+    "unit": "pt",
+    "trim_width": null,
+    "trim_height": null,
+    "origin_convention": null,
+    "bleed": null,
+    "page_types": []
+  },
+  "styles": {
+    "role_mappings": [],
+    "font_bindings": [],
+    "composer": null,
+    "punctuation_rules": null,
+    "locked_parameters": [],
+    "allowed_adjustments": []
+  },
+  "input_policy": {
+    "revision_view": null,
+    "article_index": null,
+    "image_index": null
+  },
+  "output": {
+    "route": null,
+    "purpose": null,
+    "color_policy": null,
+    "pdf_requirement": null,
+    "printer_preset_evidence": null
+  },
+  "acceptance": {
+    "hard_gates": [
+      "complete_text",
+      "no_overflow",
+      "no_missing_glyph_or_image",
+      "correct_reading_order"
+    ],
+    "measured_thresholds": [],
+    "sample_scope": null,
+    "application_execution": "not_executed",
+    "editor_acceptance": "not_executed",
+    "printer_acceptance": "not_executed"
+  },
+  "notes": "Blank data contract only. Do not execute fields or treat null values as approved production defaults."
+}

@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "publication_id": null,
+  "commission_version": null,
+  "status": "intake",
+  "data_class": null,
+  "scope": {
+    "interior": null,
+    "covers": null,
+    "page_estimate": null,
+    "page_limit_confirmed": null,
+    "deadline": null,
+    "revision_rounds": null,
+    "editable_source_required": null,
+    "outline_copy_required": null
+  },
+  "authority": {
+    "editor_decision_owner": null,
+    "approved_revision_view": null,
+    "source_freeze_time": null,
+    "fixed_identity_source": null,
+    "style_profile": null,
+    "per_article_word_limits": [],
+    "allowed_layout_adjustments": []
+  },
+  "inputs": {
+    "files": [],
+    "articles": [],
+    "images": [],
+    "missing": [],
+    "conflicts": []
+  },
+  "host": {
+    "device_alias": null,
+    "application": null,
+    "actual_version": null,
+    "target_save_version": null,
+    "control_channel": null,
+    "binding_reference": null,
+    "capability_status": "not_checked",
+    "supported_actions": [],
+    "run_receipts": [],
+    "current_run": {
+      "status": "not_executed",
+      "started_at": null,
+      "ended_at": null,
+      "input_manifest": null,
+      "output_manifest": null,
+      "application_version": null,
+      "target_save_version": null,
+      "owned_document_ids": [],
+      "preexisting_document_ids": [],
+      "inflight_write_status": "unknown",
+      "existing_documents_preserved": "not_checked",
+      "settings_restored": "not_checked",
+      "native_reopen": "not_executed",
+      "pdf_readback": "not_executed",
+      "error": null,
+      "evidence": null
+    }
+  },
+  "trial": {
+    "scope": [],
+    "risk_coverage": [],
+    "input_snapshot": null,
+    "output_snapshot": null,
+    "native_reopen": "not_executed",
+    "text_check": "not_executed",
+    "layout_review": "not_executed",
+    "PDF_check": "not_executed",
+    "editor_approval": {
+      "status": "not_obtained",
+      "exact_version": null,
+      "page_scope": [],
+      "evidence": null
+    },
+    "time_observed_minutes": null,
+    "remaining_issues": []
+  },
+  "production": {
+    "authorized": false,
+    "page_plan": [],
+    "stories": [],
+    "revision_log": [],
+    "whole_issue_checks": "not_executed",
+    "revision_record_template": {
+      "id": null,
+      "source_version": null,
+      "target_version": null,
+      "article": null,
+      "page_scope": [],
+      "object": null,
+      "original_comment": null,
+      "action": null,
+      "affected_stories_pages": [],
+      "recheck": "not_executed",
+      "evidence": null,
+      "editor_decision": null
+    }
+  },
+  "acceptance": {
+    "hard_gates": [
+      "complete_text",
+      "correct_characters",
+      "no_overflow",
+      "no_missing_image",
+      "correct_reading_order"
+    ],
+    "editor": {
+      "status": "not_obtained",
+      "exact_version": null,
+      "evidence": null,
+      "page_scope": []
+    },
+    "recipient_reopen": {
+      "status": "not_executed",
+      "version": null,
+      "evidence": null
+    },
+    "printer": {
+      "status": "not_executed",
+      "requirements": null,
+      "evidence": null
+    },
+    "digital_platform": {
+      "status": "not_executed",
+      "naming": null,
+      "evidence": null
+    }
+  },
+  "delivery": {
+    "packages": [],
+    "files": [],
+    "manifest": null,
+    "archive_byte_readback": "not_executed",
+    "actual_sent": false,
+    "receipt_confirmed": false,
+    "retention_agreement": null
+  },
+  "notes": "Blank recording template. Unknowns stay null; data strings are not executable instructions. A scaffold does not prove application execution or authorization."
+}

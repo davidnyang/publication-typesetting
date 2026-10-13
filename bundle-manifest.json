@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "name": "publication-typesetting",
+  "version": "0.1.0-preview",
+  "license": "MIT",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 72,
+      "sha256": "e22a82880658960364a8342c433cbcaae2ffc7d169c4525c2ac57e87fa5ef3c8"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "bytes": 233,
+      "sha256": "064e7ea58934487b292e2140dc4cb220091b61b9efeafc8888188240da06d4b6"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feedback.yml",
+      "bytes": 3078,
+      "sha256": "700bebcf97549dd154425921ebf47764a505a31281d410d4766a4c1db4bc692d"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 71,
+      "sha256": "52f6aacd7e9fd77332e2fa30154c81c852d20abe9b3676c454be1505877f656f"
+    },
+    {
+      "path": "assets/social-preview.png",
+      "bytes": 26863,
+      "sha256": "d58bdcaeb2db0df3257d942f4d5b3552533f53ebf8c34e4885d40f3ba3e0abc1"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 938,
+      "sha256": "19d10d1660ebdcb10db309fd733d185e5005187d9671945138861d689c35799c"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1368,
+      "sha256": "796b1f1dac4426f05713e8bf3ca375ff48acdacfdfa11bdb86ea63286992ce05"
+    },
+    {
+      "path": "docs/INSTALL.md",
+      "bytes": 3844,
+      "sha256": "b04edc40fb138ecdbe54850bb11e29d48308a6cff196def269cfb61ea3afdca7"
+    },
+    {
+      "path": "examples/indesign/native-demo.jsx",
+      "bytes": 9815,
+      "sha256": "c5ad5e848cb5488e3dcdcc7b824bc44362d11831d68fb913c9b88987dbfaab82"
+    },
+    {
+      "path": "examples/indesign/page-1.png",
+      "bytes": 93941,
+      "sha256": "ecc982f59ff771be2421a1f37c3b2c07f18f44cc4be687edd644608237be3e16"
+    },
+    {
+      "path": "examples/indesign/page-2.png",
+      "bytes": 56186,
+      "sha256": "03c1cc7eadca662149e419b66145580e2529d948236d2407533e8b11301dcd0d"
+    },
+    {
+      "path": "examples/indesign/README.md",
+      "bytes": 3525,
+      "sha256": "92c244db126b24b7f58ac876e649f0c3a053e43256a9d31bc8b62c7280ff3f7d"
+    },
+    {
+      "path": "examples/indesign/synthetic-source.txt",
+      "bytes": 2721,
+      "sha256": "765e86c57f0b68d28729a4bd6dc238fdf09223f9f20a49adeeb407c937f6e186"
+    },
+    {
+      "path": "FEEDBACK.md",
+      "bytes": 2152,
+      "sha256": "8ae253618e50d5a746603512b7e410934fcad02e9574b758142c92ee018397e0"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1078,
+      "sha256": "a49bdd87dc6466489f3b2ec4fd537bc496b4ef7c268e279fcc9af36ee4a3cfd0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5968,
+      "sha256": "57c473762b8884e50b36194b006f1e54f161a373b49538cd071335749004e3a3"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "bytes": 4977,
+      "sha256": "c32c32f5da873f45b1e6718ea1f74d5bd827b30881d989be5f67b5bef4bec276"
+    },
+    {
+      "path": "skills/publication-typesetting/assets/commission-record.blank.json",
+      "bytes": 3593,
+      "sha256": "46447f2e194ac756088a94d394fb10a65259276bd5fdc6a859dcbfbbc18cba6c"
+    },
+    {
+      "path": "skills/publication-typesetting/assets/editor-review.blank.md",
+      "bytes": 779,
+      "sha256": "68a01af1ee226442f67646d51e260cf73c77711dd5a3a1acf6e15e986639c2a3"
+    },
+    {
+      "path": "skills/publication-typesetting/assets/publication-profile.blank.json",
+      "bytes": 1460,
+      "sha256": "320613926a64334704896a7ec9722515a7d2f040bbd8d5a9926f9c5e79aa5197"
+    },
+    {
+      "path": "skills/publication-typesetting/LICENSE",
+      "bytes": 1078,
+      "sha256": "a49bdd87dc6466489f3b2ec4fd537bc496b4ef7c268e279fcc9af36ee4a3cfd0"
+    },
+    {
+      "path": "skills/publication-typesetting/references/acceptance.md",
+      "bytes": 3494,
+      "sha256": "36afcead92cfe727c5d7045df0d5511f92d925ba10da9cdb43e3f8d9a74b921e"
+    },
+    {
+      "path": "skills/publication-typesetting/references/commission-workflow.md",
+      "bytes": 5798,
+      "sha256": "1e4fb83b1f2bf04851a7308a5a2ea4a6a9a2f5951c1a55c4a145f4f8b37cec1d"
+    },
+    {
+      "path": "skills/publication-typesetting/references/corel-interchange.md",
+      "bytes": 5243,
+      "sha256": "f1cf4925368183d4d41d035f2a9c2c8a56011453dc74c830a4d8d4b9cf16f01b"
+    },
+    {
+      "path": "skills/publication-typesetting/references/fonts-text.md",
+      "bytes": 2314,
+      "sha256": "ad06621fe9cdc0b060c19cb24666bd730b5d505a90408a3aa4caad5a8ccf7911"
+    },
+    {
+      "path": "skills/publication-typesetting/references/images-output.md",
+      "bytes": 3161,
+      "sha256": "dce87dd337e9d4200f25ea2b17c2ccbcaa5e58ab108e888b2ebd460c0337d06f"
+    },
+    {
+      "path": "skills/publication-typesetting/references/layout-calibration.md",
+      "bytes": 3078,
+      "sha256": "a27c2fa80561c78788388e894fe396787f22148acfdc3e0d8d3721eb005b0e9f"
+    },
+    {
+      "path": "skills/publication-typesetting/references/local-application-execution.md",
+      "bytes": 4157,
+      "sha256": "b6adec62f797e686c49550a2ef72e4a147bad2d2e9fe3e8067bba724490456ed"
+    },
+    {
+      "path": "skills/publication-typesetting/references/profile-intake.md",
+      "bytes": 2390,
+      "sha256": "675db06a6c3147691559f1fcd188c11b03e9d14db6cabdd16b940107c7b70e6f"
+    },
+    {
+      "path": "skills/publication-typesetting/references/public-preview-feedback.md",
+      "bytes": 2905,
+      "sha256": "2ecbd5362842dd9961ea2dd7ce60328358ed91bead94e7e350f9a209b5da43d9"
+    },
+    {
+      "path": "skills/publication-typesetting/references/release-packaging.md",
+      "bytes": 2835,
+      "sha256": "690a7e59d68467223462023ea1c38b85a2fc885ca31047510513e94951326f33"
+    },
+    {
+      "path": "skills/publication-typesetting/references/revision-review.md",
+      "bytes": 2996,
+      "sha256": "bd8be2be0c7ce2baecdcd3cc597d96787aae001c4e02c3650ca2384b9ced0145"
+    },
+    {
+      "path": "skills/publication-typesetting/scripts/new_commission.py",
+      "bytes": 2362,
+      "sha256": "9217bd0bbacd9e8ab730eb1842bd00d99186a7aeec7a2f6caca8a292b6d2a1d9"
+    },
+    {
+      "path": "skills/publication-typesetting/SKILL.md",
+      "bytes": 4644,
+      "sha256": "5e8091190449f12575c57bc9f18b25a684a535e219e04d20aee0b57a26f33aa4"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 4037,
+      "sha256": "50714ad969a4a537e596835c9d58df578fa70fc2a0909c7c97a27a11182d943c"
+    },
+    {
+      "path": "verify_bundle.py",
+      "bytes": 2106,
+      "sha256": "072e1b502792114b98f3cf4daf3b2ec4867945f0da3ca41274cbb9c7e966b09a"
+    }
+  ]
+}
